@@ -189,6 +189,13 @@
 7.您希望这个平台还可以实现哪些功能？（填空题）</br>
 8.您对我们的平台还有什么建议？（填空题）</br>
 
+接受调查的参与者男女比例相当，以大二、大一年级为主。</br>
+88.24%的调查者希望在完成任务的同时获得酬金，79.41%的调查者愿意在发布任务时提供酬金；但58.82%的调查者不愿在平台上公开信息。</br>
+![](https://github.com/woodhead0722/Campus-side-mission-platform/blob/master/tiaoxingtui.png)
+
+问卷上主要统计的另一个重要信息信息之一在于学生所希望的平台能够提供哪些方面的服务，其中九成的对象认为学习类任务的服务较为必要，充分体现了我理学子怀揣着一颗积极向上的心，体现了对学习诚挚的热爱。此外，生活类、娱乐类的相关需求如下图。</br>
+![](https://github.com/woodhead0722/Campus-side-mission-platform/blob/master/bingzhuangtu.png)
+
 ### 5.3.数据分析及总结
 1.大部分受访者都提出了较为认真的开放性意见，对于平台的前景也抱有乐观的态度。</br>
 2.考虑到较大比重的参与者支持“酬金”的设置，所以如果能力允许，可能会在平台中加入VIP通道，从而让部分有紧急任务需要的同学获得一定程度的优先权。</br>
@@ -199,4 +206,16 @@
 
 ## 六、原型介绍
 ### 预期功能逻辑图
-![]()
+![](https://github.com/woodhead0722/Campus-side-mission-platform/blob/master/treeimage.png)
+### 主页框架
+![](https://github.com/woodhead0722/Campus-side-mission-platform/blob/master/主页1.png)
+### 菜单栏
+![](https://github.com/woodhead0722/Campus-side-mission-platform/blob/master/大厅1.png)
+### 个人用户界面
+![](https://github.com/woodhead0722/Campus-side-mission-platform/blob/master/个人2.png)
+### 任务大厅
+![](https://github.com/woodhead0722/Campus-side-mission-platform/blob/master/大厅2.png)
+### 注册界面
+![](https://github.com/woodhead0722/Campus-side-mission-platform/blob/master/注册.png)
+### 登陆界面
+![](https://github.com/woodhead0722/Campus-side-mission-platform/blob/master/登录.png)
