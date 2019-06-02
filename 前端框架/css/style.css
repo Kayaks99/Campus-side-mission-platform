@@ -3227,11 +3227,67 @@ main {
 }
 .Personal
 {
-  -webkit-box-flex: 0;
-  -webkit-flex: none;
-  -ms-flex: none;
-  flex: none;
-  max-width: 100%;
-  min-width: 40%;
-  text-align: center;
+    -webkit-box-flex: 0;
+    -webkit-flex: none;
+    -ms-flex: none;
+    flex: none;
+    max-width: 100%;
+    min-width: 40%;
+    text-align: center;
+    /*background-image: url('/img/bg/05.png');*/
+    background-repeat:no-repeat;
+	background-position:50% 60%;
+	height: 250px;
+}
+.Personal h1
+{
+	color:rgba(29,0,89,1.00);
+	font-size:60px;	
+}
+.Personal2
+{
+	-webkit-box-flex: 0;
+    -webkit-flex: none;
+    -ms-flex: none;
+    flex: none;
+    max-width: 100%;
+    min-width: 40%;
+    text-align: center;
+	margin:0 auto;
+	height: 200px;
+	width: 1070px;
+	border: red solid thin;
+	outline-style: dashed;
+}
+.Personal2 p
+{
+	font-family: "黑体";
+	font-size: 20px;
+}
+.Personal2 h1
+{
+	font-family: "Times New Roman";
+	font-size: 50px;
+	color: rgba(0,255,67,1.00);
+}
+.Personal3
+{
+	-webkit-box-flex: 0;
+    -webkit-flex: none;
+    -ms-flex: none;
+    flex: none;
+    max-width: 100%;
+    min-width: 40%;
+    text-align: center;
+	margin:0 auto;
+	height: 60px;
+	width: 1070px;
+}
+.Personal3 button
+{
+	width:200px;
+	background-color:aliceblue;
+	margin-top:30px;
+	margin-left: 50px;
+	margin-right: 50px;
 }
