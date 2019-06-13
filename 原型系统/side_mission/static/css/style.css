@@ -3291,3 +3291,23 @@ main {
 	margin-left: 50px;
 	margin-right: 50px;
 }
+
+#form-edit{
+  margin-left:8em;
+  margin-right:8em;
+}
+#topnav{
+  font-size: 1.35em;
+  padding-left: 5em;
+  padding-right: 5em;
+  height: 2.5em;
+}
+nav input{
+width: 39%!important;
+}
+.no-underline>tr>td>a:hover{
+  text-decoration: none;
+}
+#line-through{
+  text-decoration: line-through;
+}

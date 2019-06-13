@@ -1,3 +1,5 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
@@ -8,13 +10,11 @@
 <meta name="keywords" content="">
 <title></title>
 <!-- Favicon Icon -->
-<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-<!-- Bootstrap -->
-<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="{% static 'css/bootstrap.css'%}">
 <!-- Plugins -->
-<link rel="stylesheet" href="css/core.css">
+<link rel="stylesheet" href="{% static 'css/core.css'%}">
 <!-- Custom CSS -->
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="{% static 'css/style.css'%}">
 </head>
 
 <body id="top" class="stickyfooter header-fixed">
@@ -25,7 +25,7 @@
 				<div class="container clearfix">
 					<div class="pull-left">
 						<!-- Logo -->
-						<a href="index.html" class="logo clearfix">Snow Whites & three dwarfs</a>
+						<a href=index class="logo clearfix">Snow Whites & three dwarfs</a>
 					</div>
 					<div class="pull-right">
 						<!-- Menu Burger -->
@@ -47,11 +47,11 @@
 			<div class="inner-wrap">
 				<nav>
 					<ul class="nav_menu">
-						<li><a href="index.html">Home</a></li>
-						<li><a href="me.html">Me</a></li></li>
-						<li><li><a href="mission_hall.html">Mission Hall</a></li></li>
-						<li><a href="login.html">Login</a></li>
-						<li><a href="register.html">Register</a></li>
+						<li><a href=index>Home</a></li>
+						<li><a href=me>Me</a></li></li>
+						<li><li><a href=mission_hall>Mission Hall</a></li></li>
+						<li><a href=login>Login</a></li>
+						<li><a href=register>Register</a></li>
 						<!--<li><a href="about.html">About US</a></li>-->
 					</ul>
 				</nav>
@@ -73,12 +73,12 @@
 			</div>
 		</section>
 		<!-- End section -->
-	<div class="Personal" style="background-image: url('img/Hello.png');">
+	<div class="Personal" style="background-image: url('../static/img/Hello.png');">
 		<br>
 		<br>
 		<br>
 		<br>
-		<h1 style="">Hello,XXX!</h1>
+		<h1 style="">Hello,{{username}}!</h1>
 	</div>
 	<br>
 	<br>
@@ -90,10 +90,10 @@
 	<br>
 	<div class="Personal3">
 		<button>
-			<a href="me.html">发布任务</a>
+			<a href=new_mission>发布任务</a>
 		</button>
 		<button>
-			<a href="mission_hall.html">接受任务</a>
+			<a href=mission_hall>接受任务</a>
 		</button>
 	</div>
 			<!-- Service Item -->
@@ -109,10 +109,10 @@
 									<i class="pe-light"></i>
 								</div>
 								<div class="content-holder">
-									<a href="me.html">
+									<a href=me>
 										<h5>已接任务</h5>
 									</a>									
-									<span>0&nbsp;</span>
+									<span>{{计数.已接任务}}&nbsp;</span>
 								</div>
 							</div>
 						</div>
@@ -122,7 +122,7 @@
 									<i class="pe-help2"></i>
 								</div>
 								<div class="content-holder">
-									<a href="me.html">
+									<a href=me>
 										<h5>已完成任务</h5>
 									</a>
 									<span>0&nbsp;</span>
@@ -135,10 +135,10 @@
 									<i class="pe-graph2"></i>
 								</div>
 								<div class="content-holder">
-									<a href="me.html">
+									<a href=me>
 										<h5>发布的任务</h5>
 									</a>
-									<span>0&nbsp;</span>
+									<span>{{计数.已发任务}}&nbsp;</span>
 								</div>
 							</div>
 						</div>
@@ -158,7 +158,7 @@
 			<div class="container">
 				<div class="text-center">
 					<!-- Footer Logo Text -->
-					<a href="index.html" class="logo clearfix">Minidark</a>
+					<a href=index class="logo clearfix">Minidark</a>
 					<div class="footer-socials">
 						<a href="#" data-toggle="tooltip" data-placement="top" title="facebook">
 							<i class="fa fa-fw fa-facebook"></i>
@@ -185,10 +185,10 @@
 	<!-- End footer -->
 </div>
 <!-- End animsition -->
-<script src="js/jquery-1.12.4.min.js"></script>
-<script src="js/libs.js"></script>
+<script src="{%static 'js/jquery-1.12.4.min.js'%}"></script>
+<script src="{%static 'js/libs.js'%}"></script>
 <!-- Custom -->
-<script src="js/main.js"></script>
-<script src="js/script.js"></script>
+<script src="{%static 'js/main.js'%}"></script>
+<script src="{%static 'js/script.js'%}"></script>
 </body>
 </html>
